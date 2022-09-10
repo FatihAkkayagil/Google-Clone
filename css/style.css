@@ -1,0 +1,67 @@
+/* sayfada bırakılan bütün boşlukları sıfırlıyorum */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* hücrelere arka plan rengi veriyorum */
+
+#td0 {
+    background-color: rgb(238, 238, 238);
+}
+
+#td1 {
+    background-color: rgb(126, 229, 218);
+    /* font büyüklüğünü ve hücre genişliğini ayarlıyorum */
+    font-size: medium;
+    width: 37%;
+}
+
+#td2 {
+    /* hücrelere arka plan rengi veriyorum, font büyüklüğünü ve hücre genişliğini ayarlıyorum*/
+    background-color: rgb(112, 204, 194);
+    font-size: 13px;
+}
+
+#td3 {
+    /* hücrelere arka plan rengi veriyorum, font büyüklüğünü ve hücre genişliğini ayarlıyorum*/
+    background-color: rgb(98, 179, 170);
+    font-size: small;
+}
+
+table {
+    /* tabloya genişlik veriyorum  */
+    width: 90%;
+    /*kenar çizgileri kaldırıyorum*/
+    border: 0px;
+    /*tablodaki içerikleri ortalıyorum */
+    text-align: center;
+    /*tablonun dış kısmının soldan ve sağından otomatik boşluk bırakıyorum*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    /* içerikleri ortalıyorum ve font büyüklüğü seçiyorum*/
+    text-align: center;
+    font-size: small;
+    /* tepeden 10 pixel boşluk bırakıyorum */
+    margin-top: 10px;
+}
+
+.search {
+    /* içerden boşluk bırakıyorum */
+    padding: 1px 2px;
+}
+
+.btn {
+    /* içerden boşluk bırakıyorum */
+    padding: 1px 6px;
+}
+
+table td {
+    /* içerden boşluk bırakıyorum */
+    padding: 2.5px;
+}
